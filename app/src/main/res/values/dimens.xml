@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<dimen name="bigText">28sp</dimen>
+	<dimen name="descriptionText">24sp</dimen>
+	<dimen name="regularText">16sp</dimen>
+	
+	<dimen name="stretchToFill">0dp</dimen>
+
+	
+</resources>

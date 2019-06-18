@@ -1,3 +1,8 @@
 <resources>
     <string name="app_name">01_LinuxEssentialsTrivia</string>
+
+    <string name="activity_home__title">LPI Linux Essentials Trivia</string>
+    <string name="activity_home__description">This app contains 30 questions based on topics that appear on the LPI Linux essentials exam</string>
+    <string name="activity_home__start_button">Start</string>
+
 </resources>
