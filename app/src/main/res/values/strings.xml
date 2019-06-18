@@ -5,4 +5,8 @@
     <string name="activity_home__description">This app contains 30 questions based on topics that appear on the LPI Linux essentials exam</string>
     <string name="activity_home__start_button">Start</string>
 
+    <string name="activity_questions__question_title_default">QUESTION_TITLE</string>
+    <string name="activity_questions__question_radio_button">DEFAULT_ANSWER</string>
+    <string name="activity_questions__next_button">Next</string>
+
 </resources>
