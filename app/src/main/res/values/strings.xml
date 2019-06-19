@@ -8,5 +8,6 @@
     <string name="activity_questions__question_title_default">QUESTION_TITLE</string>
     <string name="activity_questions__question_radio_button">DEFAULT_ANSWER</string>
     <string name="activity_questions__next_button">Next</string>
+    <string name="activity_questions__err_no_question_selected">Please select a question</string>
 
 </resources>
