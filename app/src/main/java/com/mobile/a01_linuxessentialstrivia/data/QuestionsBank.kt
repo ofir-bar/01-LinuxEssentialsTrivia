@@ -2,9 +2,9 @@ package com.mobile.a01_linuxessentialstrivia.data
 
 import com.mobile.a01_linuxessentialstrivia.model.Question
 
-class QuestionsBank(var questionsBank: Collection<Question>){
-    init {
-        questionsBank = listOf(
+object QuestionsBank{
+
+        private var questionsBank = listOf(
             Question("Which of the following can be used to access the command line?", listOf("Xargs", "XWindows", "BIOS", "Firefox", "Terminal")),
             Question("Which of the following is a Linux based operating system for use on mobile devices?", listOf("Android","CentOS", "IOS", "Debian")),
             Question("Where is the BIOS located?", listOf("RAM", "Motherboard", "Hard drive", "LCD Monitor")),
@@ -16,6 +16,14 @@ class QuestionsBank(var questionsBank: Collection<Question>){
             Question("Which Linux distribution is used as a basis for the creation of Ubuntu Linux?", listOf("Gentoo Linux", "Red Hat Linux", "Arch Linux", "SUSE Linux", "Debian Linux")),
             Question("Which function does a shell program serve?", listOf("It provides a graphical environment", "It is responsible for logging a user into the system", "It is responsible for logging a user into the system", "It receives user commands and executes them"))
         )
+
+
+    fun getInstanceAt(index: Int): Question{
+        return questionsBank[index]
+    }
+
+    fun getInstance(): Collection<Question>{
+        return questionsBank
     }
 
 }
