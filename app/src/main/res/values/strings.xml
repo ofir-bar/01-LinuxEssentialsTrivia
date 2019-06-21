@@ -6,8 +6,8 @@
     <string name="activity_home__start_button">Start</string>
 
     <string name="activity_questions__question_title_default">QUESTION_TITLE</string>
-    <string name="activity_questions__question_radio_button">DEFAULT_ANSWER</string>
+    <string name="activity_questions__answer_radio_button">DEFAULT_ANSWER</string>
     <string name="activity_questions__next_button">Next</string>
-    <string name="activity_questions__err_no_question_selected">Please select a question</string>
+    <string name="activity_questions__err_no_answer_selected">Please select an answer</string>
 
 </resources>
