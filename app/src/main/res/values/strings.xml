@@ -10,4 +10,8 @@
     <string name="activity_questions__next_button">Next</string>
     <string name="activity_questions__err_no_answer_selected">Please select an answer</string>
 
+	<string name="activity_finish__score">Score: 100/100</string>
+    <string name="activity_finish__linux_logo_content_description">Linux Logo</string>
+    <string name="activity_finish__title">LPI Linux Essentials Quiz</string>
+
 </resources>
