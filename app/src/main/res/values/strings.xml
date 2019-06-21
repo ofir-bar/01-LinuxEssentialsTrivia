@@ -1,8 +1,8 @@
 <resources>
     <string name="app_name">01_LinuxEssentialsTrivia</string>
 
-    <string name="activity_home__title">LPI Linux Essentials Trivia</string>
-    <string name="activity_home__description">This app contains 30 questions based on topics that appear on the LPI Linux essentials exam</string>
+    <string name="activity_home__title">LPI Linux Essentials Quiz</string>
+    <string name="activity_home__description">This app contains 10 questions based on topics that appear on the LPI Linux essentials exam</string>
     <string name="activity_home__start_button">Start</string>
 
     <string name="activity_questions__question_title_default">QUESTION_TITLE</string>
@@ -10,8 +10,10 @@
     <string name="activity_questions__next_button">Next</string>
     <string name="activity_questions__err_no_answer_selected">Please select an answer</string>
 
-	<string name="activity_finish__score">Score: 100/100</string>
+	<string name="activity_finish__congratulation">Congratulation!\nyou\'ve finished the quiz</string>
     <string name="activity_finish__linux_logo_content_description">Linux Logo</string>
     <string name="activity_finish__title">LPI Linux Essentials Quiz</string>
+    <string name="activity_finish__start_over_button">Start Over</string>
+    <string name="activity_finish__start_over">Start Over</string>
 
 </resources>
